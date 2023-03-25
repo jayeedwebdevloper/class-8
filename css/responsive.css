@@ -1,6 +1,6 @@
 @media only screen and (max-width: 460px) {
     .menubar {
-        padding-top: 1%;
+        padding-top: 1% !important;
     }
 }
 
