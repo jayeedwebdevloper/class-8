@@ -1,0 +1,186 @@
+@media only screen and (max-width: 460px) {
+    .menubar {
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menubar .menu-button {
+        margin-top: 15% !important;
+    }
+
+    .menubar {
+        width: 9% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 16px;
+    }
+
+    .logo h1 {
+        font-size: 25px;
+    }
+
+    .logo a h1 span {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-2,
+    .contact .col-2 {
+        width: 100%;
+    }
+
+    .menubar {
+        width: 7%;
+    }
+
+    .menubar .menu-button {
+        padding: 10% 2% 20% 2% !important;
+        margin-top: 8% !important;
+    }
+
+    .gallery a {
+        padding: 1% 0 5% 0;
+    }
+
+    .explore h1 {
+        margin-left: 0;
+        font-size: 45px;
+    }
+
+    .explore .line {
+        margin-left: 0;
+    }
+
+    .explore p {
+        margin-left: 0;
+    }
+
+    .explore a {
+        margin-left: 0;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .small,
+    .big {
+        padding: 1% 0;
+    }
+
+    .small img,
+    .big img {
+        height: 400px;
+    }
+
+    .contact-box,
+    .contact-address {
+        padding: 0 0 0 0 !important;
+    }
+
+    .contact .btn {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .contact input,
+    .contact-details input,
+    .contact-address input,
+    .contact-box input {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 1% 2% !important;
+        margin-top: 1% !important;
+        margin-bottom: 1% !important;
+    }
+
+    .contact label,
+    .contact-details label,
+    .contact-address label,
+    .contact-box label {
+        padding: 0 !important;
+        margin: 1% 0;
+    }
+
+    .contact-box-2 {
+        padding: 0;
+    }
+
+    .banner h2 {
+        font-size: 20px;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .upcoming h1 {
+        font-size: 30px;
+    }
+
+    .items h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    nav {
+        width: 100%;
+        display: none;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    .menubar .menu-button {
+        display: block;
+        padding: 10% 2% 25% 2%;
+        margin-top: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .container {
+        width: 50%;
+    }
+}
