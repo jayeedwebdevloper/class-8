@@ -12,7 +12,7 @@ $(window).scroll(function () {
             'color': '#000',
             'font-weight': '400',
         });
-        $('.menu a').hover(function () {
+        $('.menu nav a').hover(function () {
             $(this).css("color", "#ed228b");
         }, function () {
             $(this).css("color", "#000");
