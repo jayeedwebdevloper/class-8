@@ -37,6 +37,11 @@
         width: 100%;
     }
 
+    .items {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .menubar {
         width: 7%;
     }
