@@ -57,3 +57,9 @@ $('.menu-button').click(function () {
     });
     $('nav').slideToggle('100');
 });
+
+var load = document.getElementById("pre");
+
+window.addEventListener("load", function () {
+    load.style.display = "none";
+})

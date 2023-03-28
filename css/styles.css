@@ -527,3 +527,10 @@ footer img {
     border: 1px solid #2c0af1b0;
     box-shadow: 0 0 10px #000;
 }
+
+#pre {
+    background: #ffffff url("../img/load.gif") no-repeat center center;
+    background-size: 6%;
+    width: 100%;
+    height: 100vh;
+}
