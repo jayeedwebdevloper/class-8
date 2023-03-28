@@ -539,7 +539,7 @@ textarea:focus {
 
 .login input[type=checkbox]:checked,
 .signup input[type=checkbox]:checked {
-    accent-color: rgb(2, 147, 244);
+    accent-color: rgb(244, 26, 2);
 }
 
 .login .label,
