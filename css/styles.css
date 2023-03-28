@@ -503,6 +503,7 @@ textarea:focus {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 2px 0px, rgba(0, 0, 0, 0.3) 0px 0 0px 0px;
     border-radius: 5px;
     transition: all 1s ease;
+    background: transparent;
 }
 
 .signup input[type=date] {
