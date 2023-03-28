@@ -534,5 +534,5 @@ footer img {
     background-size: 6%;
     width: 100%;
     height: 100vh;
-    background-position: fixed;
+    position: fixed;
 }
