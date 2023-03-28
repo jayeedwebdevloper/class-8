@@ -452,6 +452,138 @@ textarea:focus {
     text-align: center;
 }
 
+/* subscribe */
+
+.subscribe {
+    margin-top: 4%;
+}
+
+.subscribe h1 {
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.815);
+    padding-bottom: 2%;
+    font-size: 40px;
+}
+
+.subscribe h2 {
+    text-align: center;
+    font-weight: 600;
+    color: #00000094;
+    padding: 2% 0 5% 0;
+    font-size: 30px;
+}
+
+.login,
+.signup {
+    box-shadow: 0 0 5px #000;
+    padding: 2% 4% 3% 4%;
+    border-radius: 20px;
+    margin: 3% 0 2% 0;
+    width: 100%;
+    display: block;
+}
+
+
+
+.login input[type=text],
+.login input[type=password],
+.signup input[type=text],
+.signup input[type=password],
+.signup input[type=email],
+.signup input[type=number],
+.signup select,
+.signup input[type=date] {
+    width: 100%;
+    margin: 2% 0 1% 0;
+    padding: 2%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0000008a;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 2px 0px, rgba(0, 0, 0, 0.3) 0px 0 0px 0px;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+.signup input[type=date] {
+    color: #00000099;
+}
+
+
+.login input[type=text]:focus,
+.login input[type=password]:focus,
+.signup input[type=text]:focus,
+.signup input[type=password]:focus,
+.signup input[type=email]:focus,
+.signup input[type=number]:focus,
+.signup select:focus,
+.signup input[type=date]:focus {
+    border: 1.3px solid #ca0097;
+}
+
+.checked {
+    display: flex;
+    align-items: center;
+
+}
+
+.login input[type=checkbox],
+.signup input[type=checkbox] {
+    height: 20px;
+    width: 17px;
+    margin: 3% 1% 3% 1%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.login input[type=checkbox]:checked,
+.signup input[type=checkbox]:checked {
+    accent-color: rgb(2, 147, 244);
+}
+
+.login .label,
+.signup label {
+    margin: 2.6% 0;
+    color: #00000087;
+}
+
+
+.login .checked a {
+    text-decoration: none;
+    display: inline;
+    margin-left: 50%;
+}
+
+.login a:hover {
+    text-decoration: underline dashed;
+}
+
+select {
+    cursor: pointer;
+}
+
+#select:hover {
+    background: #000;
+}
+
+
+
+.details-account {
+    padding: 0 2%;
+}
+
+.subscribe input[type=button] {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup .btn {
+    background: #06a216;
+    font-weight: 600;
+}
+
 /* footer */
 footer {
     padding: 5% 0 0 0;
